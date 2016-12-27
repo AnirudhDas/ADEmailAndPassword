@@ -1,0 +1,12 @@
+PODS:
+  - ADEmailAndPassword (1.0.10)
+
+DEPENDENCIES:
+  - ADEmailAndPassword
+
+SPEC CHECKSUMS:
+  ADEmailAndPassword: 2b1edfc62b9af7a92dc73c43269a3ccf678c6e8b
+
+PODFILE CHECKSUM: e1ea775a525fbb5237ebed02da3ab22e47270d33
+
+COCOAPODS: 1.1.1
