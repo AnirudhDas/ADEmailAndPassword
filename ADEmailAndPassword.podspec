@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ADEmailAndPassword"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "It helps to validate Email and Password."
 
   # This description is used to generate tags and improve search results.
@@ -115,6 +115,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
+s.frameworks    =   'Foundation'
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
