@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ADEmailAndPassword"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "It helps to validate Email and Password."
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "It helps to validate Email and Password, and tells the strength of password entered."
 
-  s.homepage     = "https://anirudhdas.github.io/AniruddhaDas.github.io/"
+  s.homepage     = "https://github.com/AnirudhDas/ADEmailAndPassword.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
