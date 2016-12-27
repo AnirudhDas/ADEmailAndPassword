@@ -16,12 +16,12 @@ enum PasswordStrength {
 }
 
 public class ADEmailAndPassword {
-    static func validateEmail(emailId: String) -> Bool {
+    public static func validateEmail(emailId: String) -> Bool {
         let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}"
         return NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: emailId)
     }
     
-    static func validatePassword(password: String, length: Int, patternsToEscape: [String], caseSensitivty: Bool, numericDigits: Bool) -> Bool {
+    public static func validatePassword(password: String, length: Int, patternsToEscape: [String], caseSensitivty: Bool, numericDigits: Bool) -> Bool {
         if (password.characters.count < length) {
             return false
         }
@@ -53,7 +53,7 @@ public class ADEmailAndPassword {
         return true
     }
     
-    static func matchesForRegexInText(regex: String, text: String) -> [String] {
+    public static func matchesForRegexInText(regex: String, text: String) -> [String] {
         do {
             let regex = try NSRegularExpression(pattern: regex, options: [])
             let nsString = text as NSString
@@ -66,7 +66,7 @@ public class ADEmailAndPassword {
         }
     }
     
-    static func checkPasswordStrength(password: String) -> String {
+    public static func checkPasswordStrength(password: String) -> String {
         let len: Int = password.characters.count
         var strength: Int = 0
         
