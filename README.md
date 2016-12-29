@@ -24,6 +24,8 @@ This component helps to validate Email and Password, and also check password str
 
 ### Install Guide
 
+##### Using CocoaPods
+
 Steps to add `ADEmailAndPassword` iOS Component to your iOS Xcode project:
 
 1. Install Cocoa Pods
@@ -66,6 +68,36 @@ $ open YourAppName.xcworkspace
 	```swift
 import ADEmailAndPassword
 	```
+	
+##### Using Carthage
+
+Steps to add `ADEmailAndPassword` iOS Component to your iOS Xcode project:
+
+1. Install Carthage
+
+	If you have already installed Carthage then you can skip this step.
+
+	```
+$ brew update
+$ brew install carthage
+	```
+
+2. Create `Cartfile`
+
+	Create this file inside your project folder.
+
+	```
+vi Cartfile
+	```
+	
+3. Inside the `Cartfile`, write:
+
+	```
+github "AnirudhDas/ADEmailAndPassword"
+	```
+	
+	Then run ```carthage update``` to build the framework and drag the built ```ADEmailAndPassword.framework``` into your Xcode project.
+	
 	
 ### Usage Guide
 	

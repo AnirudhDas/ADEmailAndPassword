@@ -7,84 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF4376071E155FB60027D94A /* ADEmailAndPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4375FD1E155FB60027D94A /* ADEmailAndPassword.framework */; };
-		DF43760C1E155FB60027D94A /* ADEmailAndPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43760B1E155FB60027D94A /* ADEmailAndPasswordTests.swift */; };
-		DF43760E1E155FB60027D94A /* ADEmailAndPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4376001E155FB60027D94A /* ADEmailAndPassword.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF4376181E1560030027D94A /* ADEmailAndPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4376171E1560030027D94A /* ADEmailAndPassword.swift */; };
+		DF0389751E15655600E79177 /* ADEmailAndPassword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF03896B1E15655600E79177 /* ADEmailAndPassword.framework */; };
+		DF03897A1E15655600E79177 /* ADEmailAndPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0389791E15655600E79177 /* ADEmailAndPasswordTests.swift */; };
+		DF03897C1E15655600E79177 /* ADEmailAndPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = DF03896E1E15655600E79177 /* ADEmailAndPassword.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0389861E15656700E79177 /* ADEmailAndPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0389851E15656700E79177 /* ADEmailAndPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF4376081E155FB60027D94A /* PBXContainerItemProxy */ = {
+		DF0389761E15655600E79177 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF4375F41E155FB60027D94A /* Project object */;
+			containerPortal = DF0389621E15655600E79177 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF4375FC1E155FB60027D94A;
+			remoteGlobalIDString = DF03896A1E15655600E79177;
 			remoteInfo = ADEmailAndPassword;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF4375FD1E155FB60027D94A /* ADEmailAndPassword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADEmailAndPassword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF4376001E155FB60027D94A /* ADEmailAndPassword.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADEmailAndPassword.h; sourceTree = "<group>"; };
-		DF4376011E155FB60027D94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF4376061E155FB60027D94A /* ADEmailAndPasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADEmailAndPasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF43760B1E155FB60027D94A /* ADEmailAndPasswordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADEmailAndPasswordTests.swift; sourceTree = "<group>"; };
-		DF43760D1E155FB60027D94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF4376171E1560030027D94A /* ADEmailAndPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADEmailAndPassword.swift; sourceTree = "<group>"; };
+		DF03896B1E15655600E79177 /* ADEmailAndPassword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADEmailAndPassword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF03896E1E15655600E79177 /* ADEmailAndPassword.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADEmailAndPassword.h; sourceTree = "<group>"; };
+		DF03896F1E15655600E79177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0389741E15655600E79177 /* ADEmailAndPasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADEmailAndPasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0389791E15655600E79177 /* ADEmailAndPasswordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADEmailAndPasswordTests.swift; sourceTree = "<group>"; };
+		DF03897B1E15655600E79177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0389851E15656700E79177 /* ADEmailAndPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADEmailAndPassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF4375F91E155FB60027D94A /* Frameworks */ = {
+		DF0389671E15655600E79177 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF4376031E155FB60027D94A /* Frameworks */ = {
+		DF0389711E15655600E79177 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF4376071E155FB60027D94A /* ADEmailAndPassword.framework in Frameworks */,
+				DF0389751E15655600E79177 /* ADEmailAndPassword.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF4375F31E155FB60027D94A = {
+		DF0389611E15655600E79177 = {
 			isa = PBXGroup;
 			children = (
-				DF4375FF1E155FB60027D94A /* ADEmailAndPassword */,
-				DF43760A1E155FB60027D94A /* ADEmailAndPasswordTests */,
-				DF4375FE1E155FB60027D94A /* Products */,
+				DF03896D1E15655600E79177 /* ADEmailAndPassword */,
+				DF0389781E15655600E79177 /* ADEmailAndPasswordTests */,
+				DF03896C1E15655600E79177 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF4375FE1E155FB60027D94A /* Products */ = {
+		DF03896C1E15655600E79177 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF4375FD1E155FB60027D94A /* ADEmailAndPassword.framework */,
-				DF4376061E155FB60027D94A /* ADEmailAndPasswordTests.xctest */,
+				DF03896B1E15655600E79177 /* ADEmailAndPassword.framework */,
+				DF0389741E15655600E79177 /* ADEmailAndPasswordTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF4375FF1E155FB60027D94A /* ADEmailAndPassword */ = {
+		DF03896D1E15655600E79177 /* ADEmailAndPassword */ = {
 			isa = PBXGroup;
 			children = (
-				DF4376171E1560030027D94A /* ADEmailAndPassword.swift */,
-				DF4376001E155FB60027D94A /* ADEmailAndPassword.h */,
-				DF4376011E155FB60027D94A /* Info.plist */,
+				DF0389851E15656700E79177 /* ADEmailAndPassword.swift */,
+				DF03896E1E15655600E79177 /* ADEmailAndPassword.h */,
+				DF03896F1E15655600E79177 /* Info.plist */,
 			);
 			path = ADEmailAndPassword;
 			sourceTree = "<group>";
 		};
-		DF43760A1E155FB60027D94A /* ADEmailAndPasswordTests */ = {
+		DF0389781E15655600E79177 /* ADEmailAndPasswordTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF43760B1E155FB60027D94A /* ADEmailAndPasswordTests.swift */,
-				DF43760D1E155FB60027D94A /* Info.plist */,
+				DF0389791E15655600E79177 /* ADEmailAndPasswordTests.swift */,
+				DF03897B1E15655600E79177 /* Info.plist */,
 			);
 			path = ADEmailAndPasswordTests;
 			sourceTree = "<group>";
@@ -92,25 +92,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DF4375FA1E155FB60027D94A /* Headers */ = {
+		DF0389681E15655600E79177 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF43760E1E155FB60027D94A /* ADEmailAndPassword.h in Headers */,
+				DF03897C1E15655600E79177 /* ADEmailAndPassword.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DF4375FC1E155FB60027D94A /* ADEmailAndPassword */ = {
+		DF03896A1E15655600E79177 /* ADEmailAndPassword */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF4376111E155FB60027D94A /* Build configuration list for PBXNativeTarget "ADEmailAndPassword" */;
+			buildConfigurationList = DF03897F1E15655600E79177 /* Build configuration list for PBXNativeTarget "ADEmailAndPassword" */;
 			buildPhases = (
-				DF4375F81E155FB60027D94A /* Sources */,
-				DF4375F91E155FB60027D94A /* Frameworks */,
-				DF4375FA1E155FB60027D94A /* Headers */,
-				DF4375FB1E155FB60027D94A /* Resources */,
+				DF0389661E15655600E79177 /* Sources */,
+				DF0389671E15655600E79177 /* Frameworks */,
+				DF0389681E15655600E79177 /* Headers */,
+				DF0389691E15655600E79177 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -118,77 +118,77 @@
 			);
 			name = ADEmailAndPassword;
 			productName = ADEmailAndPassword;
-			productReference = DF4375FD1E155FB60027D94A /* ADEmailAndPassword.framework */;
+			productReference = DF03896B1E15655600E79177 /* ADEmailAndPassword.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DF4376051E155FB60027D94A /* ADEmailAndPasswordTests */ = {
+		DF0389731E15655600E79177 /* ADEmailAndPasswordTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF4376141E155FB60027D94A /* Build configuration list for PBXNativeTarget "ADEmailAndPasswordTests" */;
+			buildConfigurationList = DF0389821E15655600E79177 /* Build configuration list for PBXNativeTarget "ADEmailAndPasswordTests" */;
 			buildPhases = (
-				DF4376021E155FB60027D94A /* Sources */,
-				DF4376031E155FB60027D94A /* Frameworks */,
-				DF4376041E155FB60027D94A /* Resources */,
+				DF0389701E15655600E79177 /* Sources */,
+				DF0389711E15655600E79177 /* Frameworks */,
+				DF0389721E15655600E79177 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DF4376091E155FB60027D94A /* PBXTargetDependency */,
+				DF0389771E15655600E79177 /* PBXTargetDependency */,
 			);
 			name = ADEmailAndPasswordTests;
 			productName = ADEmailAndPasswordTests;
-			productReference = DF4376061E155FB60027D94A /* ADEmailAndPasswordTests.xctest */;
+			productReference = DF0389741E15655600E79177 /* ADEmailAndPasswordTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF4375F41E155FB60027D94A /* Project object */ = {
+		DF0389621E15655600E79177 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Aniruddha Das";
 				TargetAttributes = {
-					DF4375FC1E155FB60027D94A = {
+					DF03896A1E15655600E79177 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Z6845F78QK;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
-					DF4376051E155FB60027D94A = {
+					DF0389731E15655600E79177 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Z6845F78QK;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DF4375F71E155FB60027D94A /* Build configuration list for PBXProject "ADEmailAndPassword" */;
+			buildConfigurationList = DF0389651E15655600E79177 /* Build configuration list for PBXProject "ADEmailAndPassword" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DF4375F31E155FB60027D94A;
-			productRefGroup = DF4375FE1E155FB60027D94A /* Products */;
+			mainGroup = DF0389611E15655600E79177;
+			productRefGroup = DF03896C1E15655600E79177 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF4375FC1E155FB60027D94A /* ADEmailAndPassword */,
-				DF4376051E155FB60027D94A /* ADEmailAndPasswordTests */,
+				DF03896A1E15655600E79177 /* ADEmailAndPassword */,
+				DF0389731E15655600E79177 /* ADEmailAndPasswordTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF4375FB1E155FB60027D94A /* Resources */ = {
+		DF0389691E15655600E79177 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF4376041E155FB60027D94A /* Resources */ = {
+		DF0389721E15655600E79177 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,34 +198,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF4375F81E155FB60027D94A /* Sources */ = {
+		DF0389661E15655600E79177 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF4376181E1560030027D94A /* ADEmailAndPassword.swift in Sources */,
+				DF0389861E15656700E79177 /* ADEmailAndPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF4376021E155FB60027D94A /* Sources */ = {
+		DF0389701E15655600E79177 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF43760C1E155FB60027D94A /* ADEmailAndPasswordTests.swift in Sources */,
+				DF03897A1E15655600E79177 /* ADEmailAndPasswordTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DF4376091E155FB60027D94A /* PBXTargetDependency */ = {
+		DF0389771E15655600E79177 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF4375FC1E155FB60027D94A /* ADEmailAndPassword */;
-			targetProxy = DF4376081E155FB60027D94A /* PBXContainerItemProxy */;
+			target = DF03896A1E15655600E79177 /* ADEmailAndPassword */;
+			targetProxy = DF0389761E15655600E79177 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		DF43760F1E155FB60027D94A /* Debug */ = {
+		DF03897D1E15655600E79177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		DF4376101E155FB60027D94A /* Release */ = {
+		DF03897E1E15655600E79177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,7 +324,7 @@
 			};
 			name = Release;
 		};
-		DF4376121E155FB60027D94A /* Debug */ = {
+		DF0389801E15655600E79177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +345,7 @@
 			};
 			name = Debug;
 		};
-		DF4376131E155FB60027D94A /* Release */ = {
+		DF0389811E15655600E79177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -365,7 +365,7 @@
 			};
 			name = Release;
 		};
-		DF4376151E155FB60027D94A /* Debug */ = {
+		DF0389831E15655600E79177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -378,7 +378,7 @@
 			};
 			name = Debug;
 		};
-		DF4376161E155FB60027D94A /* Release */ = {
+		DF0389841E15655600E79177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -394,32 +394,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF4375F71E155FB60027D94A /* Build configuration list for PBXProject "ADEmailAndPassword" */ = {
+		DF0389651E15655600E79177 /* Build configuration list for PBXProject "ADEmailAndPassword" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF43760F1E155FB60027D94A /* Debug */,
-				DF4376101E155FB60027D94A /* Release */,
+				DF03897D1E15655600E79177 /* Debug */,
+				DF03897E1E15655600E79177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF4376111E155FB60027D94A /* Build configuration list for PBXNativeTarget "ADEmailAndPassword" */ = {
+		DF03897F1E15655600E79177 /* Build configuration list for PBXNativeTarget "ADEmailAndPassword" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF4376121E155FB60027D94A /* Debug */,
-				DF4376131E155FB60027D94A /* Release */,
+				DF0389801E15655600E79177 /* Debug */,
+				DF0389811E15655600E79177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DF4376141E155FB60027D94A /* Build configuration list for PBXNativeTarget "ADEmailAndPasswordTests" */ = {
+		DF0389821E15655600E79177 /* Build configuration list for PBXNativeTarget "ADEmailAndPasswordTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF4376151E155FB60027D94A /* Debug */,
-				DF4376161E155FB60027D94A /* Release */,
+				DF0389831E15655600E79177 /* Debug */,
+				DF0389841E15655600E79177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF4375F41E155FB60027D94A /* Project object */;
+	rootObject = DF0389621E15655600E79177 /* Project object */;
 }
