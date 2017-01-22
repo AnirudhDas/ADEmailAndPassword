@@ -1,10 +1,4 @@
-//
-//  ValidateEmail.swift
-//  AKStringHelper
-//
-//  Created by Aniruddha Das on 12/27/16.
-//  Copyright © 2016 Aniruddha Das. All rights reserved.
-//
+
 
 import Foundation
 
